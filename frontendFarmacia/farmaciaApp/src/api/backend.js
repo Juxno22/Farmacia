@@ -9,3 +9,16 @@ export const testConnection = async () => {
         console.error('Error de conexión:', error);
     }
 };
+
+
+//conexion con login
+/**
+export const login = async (nombre, contraseña) => {
+    const response = await fetch(`${API_URL}/auth/login`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ nombre, contraseña })
+    });
+    return response.json();
+};
+ */

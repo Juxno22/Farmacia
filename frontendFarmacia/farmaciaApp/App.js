@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Text, View } from 'react-native';
-import { testConnection } from './api/backend';
+import { testConnection } from './src/api/backend';
 
 export default function App() {
     useEffect(() => {
